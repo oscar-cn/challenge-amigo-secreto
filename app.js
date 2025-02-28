@@ -4,7 +4,7 @@ function agregarAmigo() {
     const inputNombres = document.getElementById("amigo");
     const nombres = inputNombres.value.trim();
     
-    if (nombres === "") {
+    if (!nombres) {
         alert("Por favor agrega el nombre de un amigo");
         return;
     }
@@ -15,6 +15,7 @@ function agregarAmigo() {
     actualizarLista(); // Llamamos a la función para actualizar la lista en la interfaz
     
     inputNombres.value = ""; // Limpiamos el campo de entrada
+    inputNombres.focus();// mantiene el cursos enfocado 
 }
 
 function actualizarLista() {

@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #5D60A6;
+    --color-secondary: #0D0D0D;
+    --color-tertiary: #282B59;
+    --color-button: #91F2CF; 
+    --color-button-hover: #7EF2B0;
+    --color-text: #57F2AA;
+    --color-white: #282B59;
 }
 
 /* Estilos generales */
@@ -88,6 +88,9 @@ body {
 }
 
 .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 300px;
     justify-content: center;
 }
@@ -122,7 +125,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #5D60A6;
 }
 
 /* Listas */
@@ -136,7 +139,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #57F2AA;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -153,10 +156,34 @@ ul {
     font-size: 16px;
 }
 
-.button-draw img {
-    margin-right: 40px;
+.button-draw_1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+    text-align: center;
+    gap: 10px
 }
 
+.button-draw img {
+    margin-right: 20px;
+}
+
+.button-draw_1 img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain; /* Se ajusta dentro sin recortarse */
+    filter: invert(100%);
+}
+
+
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-draw_1:hover {
     background-color: var(--color-button-hover);
 }
