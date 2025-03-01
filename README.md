@@ -14,19 +14,19 @@ El desafío consiste en aplicar la lógica de programación para crear una aplic
 
 ### FUNCIONALIDAD !   ⚙️
 1. **AGREGAR NOMBRES:** El usuario puede agregar el nombre de sus amigos en un campo de texto y al hacer clic en agregar se agrega el nombre a la lista.
-  
-2. **VALIDACION DEL CAMPO DE TEXTO:** Si el usuario no a agregado ningun nombre al campo de texto saltara un mensaje que diga "Por favor agrega el nombre de un amigo".
-
-3. **VERIFICA:** Verifica si en la lista ya se encuentra el nombre que el usuario intenta agregar y salra un mensaje que dice "Este amigo ya ha sido agregado."
-
+  ![funcion 1](assets/readme/1.PNG)
+2. **VALIDACION DEL CAMPO DE TEXTO:** Si el usuario no ha agregado ningun nombre al campo de texto saltara un mensaje que diga "Por favor agrega el nombre de un amigo".
+    ![funcion 2](assets/readme/2.PNG)
+3. **VERIFICA:** Verifica si en la lista ya se encuentra el nombre que el usuario intenta agregar y saldra un mensaje que dice "Este amigo ya ha sido agregado."
+  ![funcion 3](assets/readme/3.PNG)
 4. **LISTA:** Se puede ver de manera clara la lista de amigos que el usuario ha ido agregando.
-
-5. **SORTEO:** El programa ordena aleaotiamente los nombres y da como resultado el amigo secreto
-
+  ![funcion 4](assets/readme/4.PNG)
+5. **SORTEO:** El programa ordena aleatoriamente los nombres y da como resultado el amigo secreto
+  ![funcion 5](assets/readme/5.PNG)
 6. **FIN DEL JUEGO:** El usuario puede seguir presionando el boton de "sortear amigo" hasta que todos los nombres hayan sido sorteados, en ese momento el juego termina y programa lanza el mensaje "Has sorteado a todos tus amigos."
-
+  ![funcion 6](assets/readme/6.PNG)
 7. **REINICIO:** El usuario puede volver a jugar dando clic en el boton "Jugar de nuevo". Lo que hace este boton es que limpia la lista de nombres para que se pueda seguir jugando.
-
+  ![funcion 1](assets/readme/1.PNG)
  
    ---
 
